@@ -10,10 +10,7 @@
  *
  * @package Ultimate Addons For Beaver Builder
  */
-$brainstrom = get_option( 'brainstrom_products', [] );
-$brainstrom['plugins']['uabb']['status'] = 'registered';
-$brainstrom['plugins']['uabb']['purchase_key'] = 'registered';
-update_option( 'brainstrom_products', $brainstrom );
+
 /**
  * Custom modules
  */
